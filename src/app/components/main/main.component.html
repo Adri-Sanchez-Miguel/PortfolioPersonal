@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Mi Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><img class="logo-personal" src="favicon.ico" alt=""/></li>
+							<li><a href="#intro">Bienvenida</a></li>
+							<li><a href="#one">Introducción</a></li>
+							<li><a href="#two">Portfolio</a></li>
+							<li><a href="#three">Contacto</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1 class="intro-animation-h1">Mi portfolio</h1>
+							<p class="intro-animation-p iap1">¡Os doy la bienvenida!</p>
+							<p class="intro-animation-p iap2">Mi nombre es Adrián, y estudio:</p>
+							<p class="intro-animation-p iap3"> Ingeniería Informática en la <a href="https://www.uclm.es/">UCLM</a>.</p>
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly primary">¡Empecemos!</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image infor1"><img src="assets/images/adrian.jpeg" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Ficha básica</h2>
+									<p>Información personal para introduciros quién soy.</p>
+									<ul class="actions">
+										<li><a (click)="gotoFicha()" class="button primary">Más información</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image infor1"><img src="assets/images/esi.jpg" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Formación académica</h2>
+									<p>Qué y dónde he estudiado.</p>
+									<ul class="actions">
+										<li><a (click)="gotoFormacion()" class="button primary">Más información</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image infor1"><img src="assets/images/Grupo_Confianza.jpg" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Conocimientos</h2>
+									<p>Lenguajes y entornos en los que he trabajado.</p>
+									<ul class="actions">
+										<li><a (click)="gotoConocimientos()" class="button primary">Más información</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Portfolio</h2>
+							<p>Esta información se actualizará con proyectos en progreso y ya terminados.</p>
+							<div class="features">
+								<section>
+									<!--<span class="icon solid major fa-code"></span>-->
+									<a href="https://drive.google.com/drive/folders/1wYWQy89gP_aVjgLZwvdC-tVA61HTFyja"><span class="image fit"><img src="assets/images/ic_logo.png" alt="" /></span>
+										<h3>RCH Hotel</h3></a>
+									<p class="port-infor">Proyecto grupal realizado junto a mis compañeros de carrera Ernesto Plata y Carlos Maroto. Se trata de una aplicación Android desarrollado en Java dentro de Android Studio, y consiste en una app orientada a la reserva de habitaciones en una marca de hoteles ficticia.</p>
+								</section>
+								<section>
+									<a href="https://drive.google.com/drive/folders/1-DZreLNQcIyZBzwJMThSU1rDmYQWUk4Z"><span class="image fit"><img src="assets/images/minilogo.png" alt="" /></span>
+										<h3>Super 8 Film</h3></a>
+									<p class="port-infor">Proyecto grupal realizado junto a mis compañeros de carrera Ernesto Plata y Carlos Maroto. Trata de una aplicación en UWP que simula a Netflix, con distintas secciones para la clasificación y reproducción de vídeos.</p>
+								</section>
+								<section>
+									<a href="https://github.com/Adri-Sanchez-Miguel/Tamagochi"><span class="image fit"><img src="assets/images/tamagochi.png" alt="" /></span>
+										<h3>Tamagochi</h3></a>
+									<p class="port-infor">Proyecto personal desarrollado en WPF. El objetivo es crear un juego en el que un dibujo animado que simula ser un Tamagochi debe ser cuidado activamente para mantenerse con vida y conseguir con el paso del tiempo una mejor puntuación.</p>
+								</section>
+								<section>
+									<a href="https://github.com/Guada-cmd/ISI_PremierTweet"><span class="image fit"><img src="assets/images/ptweet.PNG" alt="" /></span>
+										<h3>Premier Tweet</h3></a>
+									<p class="port-infor">Proyecto grupal realizado junto a mis compañeros de carrera Juán Muñoz, Guadalupe Plaza, Carlos Mohedano y Carlos Maroto. Desarrollado en Python, se utiliza la API de Twitter y de IMDB para recoger Tweets de los últimos estrenos cinematrográficos y aplicar Machine Learning sobre ellos, captando cuales han tenido mejor acogida.</p>
+								</section>
+							</div>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>¡Contacta conmigo!</h2>
+							<p>Para cualquier consulta, propuesta o duda, rellena el siguiente email:</p>
+							<div class="split style1">
+								<section>
+									<form method="GET" action="mailto:adriansandaimiel25@gmail.com" enctype="text/plain">
+										<div class="fields">
+											<div class="field">
+												<label for="name">Nombre</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field">
+												<label for="email">Email</label>
+												<input type="text" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Mensaje</label>
+												<textarea name="body" id="message" rows="5"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Enviar" class="button submit primary"/></li>
+										</ul>
+									</form>
+								</section>
+								<section>
+									<ul class="contact">
+										<li>
+											<h3>Dirección</h3>
+											<span>Daimiel, Ciudad Real<br />
+											CP:13250, España</span>
+										</li>
+										<li>
+											<h3>Email</h3>
+											<span>adriansandaimiel25@gmail.com</span>
+										</li>
+										<li>
+											<h3>Teléfono</h3>
+											<span>(+34) 616 857 285</span>
+										</li>
+										<li>
+											<h3>Social</h3>
+											<ul class="icons">
+												<li><a href="https://twitter.com/Adrian_SMO_2000" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="https://github.com/Adri-Sanchez-Miguel" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="https://www.instagram.com/adrian_sanmiguel00/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="https://www.linkedin.com/in/adrian-sanchez-miguel-ortega-522878205git" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>Plantilla de: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
